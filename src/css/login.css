@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color:rgb(243, 174, 45);
+   border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+.home-button {
+    background-color:   rgb(236, 213, 170);
+    color: #000000;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    background-color:#f1eb89;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+form {
+    margin-top: 2em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input[type="email"],
+input[type="password"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5em;
+    width: 20%;
+}
+
+button[type="submit"] {
+    background-color:  #f8da31;
+    border: none;
+    border-radius: 4px;
+    color: #000000;
+    padding: 0.5em;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+button[type="submit"]:hover {
+    background-color: #f8da31;
+}
+.footer{
+    border: 10px solid  rgb(236, 213, 170);
+    background-color:  rgb(236, 213, 170);
+    padding: 20px;
+    text-align: center;
+  }
